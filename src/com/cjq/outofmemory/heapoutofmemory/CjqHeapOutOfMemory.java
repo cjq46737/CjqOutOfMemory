@@ -26,8 +26,15 @@ public class CjqHeapOutOfMemory {
      */
     static class Cjq{}
 
+    /**
+     * CjqHeapOutOfMemory
+     * @description -Xms20M -Xmx20M -XX:+HeapDumpOnOutOfMemoryError
+     * @author chenjunqi
+     * @date 2022/3/28 下午8:40
+     * @version 3.0.0
+     */
     public static void main(String[] args) {
-        
+
         List<Cjq> list = new ArrayList<>();
         while(true){
             list.add(new Cjq());
