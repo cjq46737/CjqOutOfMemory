@@ -4,7 +4,7 @@
  * @className com.cjq.outofmemory.runtimeconstpool.RuntimeConstPoolOOM
  * @copyright Copyright 2022 Thuisoft, Inc. All rights reserved.
  */
-package com.cjq.outofmemory.runtimeconstpool;
+package com.cjq.jvm.outofmemory.runtimeconstpool;
 
 import java.util.HashSet;
 import java.util.Set;

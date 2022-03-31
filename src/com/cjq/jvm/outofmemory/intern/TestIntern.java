@@ -4,7 +4,7 @@
  * @className com.cjq.outofmemory.intern.TestIntern
  * @copyright Copyright 2022 Thuisoft, Inc. All rights reserved.
  */
-package com.cjq.outofmemory.intern;
+package com.cjq.jvm.outofmemory.intern;
 
 /**
  * TestIntern

@@ -4,7 +4,7 @@
  * @className com.cjq.outofmemory.methodarea.CjqMethodAreaOOM
  * @copyright Copyright 2022 Thuisoft, Inc. All rights reserved.
  */
-package com.cjq.outofmemory.methodarea;
+package com.cjq.jvm.outofmemory.methodarea;
 
 
 
@@ -25,6 +25,7 @@ public class CjqMethodAreaOOM {
 
     public static void main(String[] args) {
         while(true){
+
             Enhancer enhancer = new Enhancer();
             enhancer.setSuperclass(CjqCool.class);
             enhancer.setUseCache(false);

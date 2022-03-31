@@ -4,7 +4,7 @@
  * @className com.cjq.outofmemory.heapoutofmemory.CjqHeapOutOfMemory
  * @copyright Copyright 2022 Thuisoft, Inc. All rights reserved.
  */
-package com.cjq.outofmemory.heapoutofmemory;
+package com.cjq.jvm.outofmemory.heapoutofmemory;
 
 import java.util.ArrayList;
 import java.util.List;

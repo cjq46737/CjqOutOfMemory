@@ -4,7 +4,7 @@
  * @className com.cjq.outofmemory.stackoverflow.CjqStackOverflowFowArgs
  * @copyright Copyright 2022 Thuisoft, Inc. All rights reserved.
  */
-package com.cjq.outofmemory.stackoverflow;
+package com.cjq.jvm.outofmemory.stackoverflow;
 
 /**
  * CjqStackOverflowFowArgs
