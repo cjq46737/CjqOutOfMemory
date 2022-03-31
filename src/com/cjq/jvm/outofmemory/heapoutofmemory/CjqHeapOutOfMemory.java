@@ -35,16 +35,11 @@ public class CjqHeapOutOfMemory {
      */
     public static void main(String[] args) {
 
-//        List<Cjq> list = new ArrayList<>();
-//        while(true){
-//            list.add(new Cjq());
-//        }
-        String s = new String("cjq");
-        String intern = s.intern();
-        System.out.println(intern.hashCode());
-        String s1= new String("cjq");
-        System.out.println(s1.intern().hashCode());
-        System.out.println(s.intern());
+        List<Cjq> list = new ArrayList<>();
+        while(true){
+            list.add(new Cjq());
+        }
+
     }
 
 }
