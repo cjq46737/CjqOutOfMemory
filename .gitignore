@@ -6,3 +6,4 @@
 java_pid29410.hprof
 *.class
 *.iml
+.idea/uiDesigner.xml
