@@ -15,6 +15,8 @@ package com.cjq.jvm.gc.impl;
  */
 public class TestGCRootsHasOopMapByHB {
 
+    private static int a = "cool".hashCode();
+
     /**
      * TestGCRootsByHB
      * @description 运行环境-client -Xcomp -XX:+UnlockDiagnosticVMOptions -XX:+PrintAssembly -XX:CompileCommand=compileonly
@@ -26,5 +28,6 @@ public class TestGCRootsHasOopMapByHB {
      */
     public static void main(String[] args) {
         System.out.println("cjq".hashCode());
+        System.out.println(a);
     }
 }
