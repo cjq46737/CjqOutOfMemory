@@ -14,11 +14,7 @@ package com.cjq.jvm.bytecode;
  * @version 3.0.0
  */
 public class TestClass {
-
-    public static void main(String[] args) {
-        System.out.println(new TestClass().inc());
-    }
-
+    
     public int inc() {
         int x;
         try {
