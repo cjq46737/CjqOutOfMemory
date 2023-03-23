@@ -13,8 +13,8 @@ package com.cjq.jvm.bytecode;
  * @date 2022年07月14日 下午9:05
  * @version 3.0.0
  */
-public class TestClass {
-    
+public class TestClassHasExceptionTable {
+
     public int inc() {
         int x;
         try {
