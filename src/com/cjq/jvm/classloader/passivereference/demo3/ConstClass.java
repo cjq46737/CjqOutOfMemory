@@ -1,10 +1,10 @@
 /*
  * @projectName CjqOutOfMemory
- * @package com.cjq.jvm.passivereference.demo3
- * @className com.cjq.jvm.passivereference.demo3.ConstClass
+ * @package com.cjq.jvm.classloader.passivereference.demo3
+ * @className com.cjq.jvm.classloader.passivereference.demo3.ConstClass
  * @copyright Copyright 2023 Thuisoft, Inc. All rights reserved.
  */
-package com.cjq.jvm.passivereference.demo3;
+package com.cjq.jvm.classloader.passivereference.demo3;
 
 /**
  * ConstClass
