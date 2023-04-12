@@ -18,6 +18,6 @@ public class Child extends Parent implements Interface {
     //    public static int a = 44;
 
     public static void main(String[] args) {
-        System.out.println(Child.a);
+        //        System.out.println(Child.a);
     }
 }
