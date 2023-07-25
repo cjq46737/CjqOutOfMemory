@@ -20,10 +20,10 @@ public class JavaClassExecuter {
     public static String execute(byte[] classByte) {
         HackSystem.clearBuffer();
         ClassModifier cm = new ClassModifier(classByte);
-        byte[] bytes = cm.modifyUTF8Constant("java/lang/System", "com/cjq/jvm/classloader/practiceremoteexecute");
+        byte[] bytes = cm.modifyUTF8Constant("java/lang/System", "com/cjq/jvm/classloader/practice/remoteexecute/HackSystem");
         Class clazz = new HotSwapClassLoader().loadByte(bytes);
         try {
-            Method method = clazz.getMethod("main", new Class[] { String.class });
+            Method method = clazz.getMethod("main", new Class[] { String[].class });
             method.invoke(null, new String[] { null });
         } catch (Exception e) {
             e.printStackTrace(HackSystem.out);
