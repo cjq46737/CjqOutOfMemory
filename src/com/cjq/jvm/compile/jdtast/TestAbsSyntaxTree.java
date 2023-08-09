@@ -1,10 +1,10 @@
 /*
  * @projectName CjqOutOfMemory
- * @package com.cjq.jvm.jdtast
- * @className com.cjq.jvm.jdtast.TestAbsSyntaxTree
+ * @package com.cjq.jvm.compile.jdtast
+ * @className com.cjq.jvm.compile.jdtast.TestAbsSyntaxTree
  * @copyright Copyright 2023 Thuisoft, Inc. All rights reserved.
  */
-package com.cjq.jvm.jdtast;
+package com.cjq.jvm.compile.jdtast;
 
 /**
  * TestAbsSyntaxTree
