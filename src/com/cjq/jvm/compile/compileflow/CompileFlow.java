@@ -23,4 +23,8 @@ public class CompileFlow {
         final int var = 0;
     }
 
+    public void foo1(int args) {
+        int var = 0;
+    }
+
 }
