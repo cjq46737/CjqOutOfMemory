@@ -9,7 +9,7 @@ package com.cjq.jvm.compile.namecheck;
 import javax.annotation.processing.Messager;
 import javax.annotation.processing.ProcessingEnvironment;
 import javax.lang.model.element.*;
-import javax.lang.model.util.ElementScanner6;
+import javax.lang.model.util.ElementScanner8;
 import javax.tools.Diagnostic;
 import java.util.EnumSet;
 
@@ -34,7 +34,7 @@ public class NameChecker {
         nameCheckScanner.scan(element);
     }
 
-    private class NameCheckScanner extends ElementScanner6<Void, Void> {
+    private class NameCheckScanner extends ElementScanner8<Void, Void> {
 
         // 检查类命名
         @Override

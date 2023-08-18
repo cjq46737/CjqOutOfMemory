@@ -6,10 +6,7 @@
  */
 package com.cjq.jvm.compile.namecheck;
 
-import javax.annotation.processing.AbstractProcessor;
-import javax.annotation.processing.ProcessingEnvironment;
-import javax.annotation.processing.RoundEnvironment;
-import javax.annotation.processing.SupportedSourceVersion;
+import javax.annotation.processing.*;
 import javax.lang.model.SourceVersion;
 import javax.lang.model.element.Element;
 import javax.lang.model.element.TypeElement;
@@ -22,7 +19,8 @@ import java.util.Set;
  * @date 2023年08月18日 上午8:48
  * @version 3.0.0
  */
-@SupportedSourceVersion(SourceVersion.RELEASE_6)
+@SupportedSourceVersion(SourceVersion.RELEASE_8)
+@SupportedAnnotationTypes("*")
 public class NameCheckProcessor extends AbstractProcessor {
 
     private NameChecker nameChecker;
